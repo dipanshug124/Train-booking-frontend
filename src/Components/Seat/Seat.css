@@ -5,7 +5,7 @@
 }
 
 .selected {
-  background: red;
+  background: green;
   color: #fff;
   display: inline-block;
 }
@@ -13,7 +13,7 @@
 td {
   width: 2pc;
   height: 2pc;
-  border: 2px solid orange;
+  border: 2px solid rgb(204, 204, 204);
   text-align: center;
   float: left;
   margin: 0.5pc;

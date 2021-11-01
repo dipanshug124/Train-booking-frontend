@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect, useCallback } from "react";
 import Seat from "../Seat/Seat";
 import "./Grid.css";
+const app_base_url = "https://train-booking-backend.herokuapp.com/";
 
 const Grid = ({ data, requiredSeats }) => {
   const [reqSeats, setReqSeats] = useState(requiredSeats);
@@ -43,9 +44,30 @@ const Grid = ({ data, requiredSeats }) => {
       return false;
     }
   };
+
+  const onSubmit = () => {
+    if (bookingSeats != []) {
+      for (let seatNo of bookingSeats) {
+        console.log(seatNo);
+        onSubmitHelper(seatNo);
+      }
+    }
+  };
+  const onSubmitHelper = async (seatNo) => {
+    return await fetch(app_base_url + "update-seat/" + seatNo, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => {
+        return res;
+      })
+      .catch((err) => err);
+  };
   return (
     <div className="container">
-      <h2>Grid</h2>
+      <h2>Seats</h2>
       <table className="grid">
         <tbody>
           <tr>
@@ -59,6 +81,9 @@ const Grid = ({ data, requiredSeats }) => {
           </tr>
         </tbody>
       </table>
+      <form className="submit-form" onSubmit={onSubmit}>
+        <input className="submit" type="submit" value="Submit" />
+      </form>
     </div>
   );
 };

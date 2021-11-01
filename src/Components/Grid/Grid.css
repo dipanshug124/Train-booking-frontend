@@ -3,12 +3,15 @@ h1 {
 }
 
 .container {
-  /* width: 600px; */
   margin: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 table.grid {
   width: 24pc;
+  flex: 9;
 }
 
 .available {
@@ -21,4 +24,9 @@ li {
 
 .btnmargin {
   margin-top: 15px;
+}
+
+.submit-form {
+  order: 1;
+  flex: 1;
 }

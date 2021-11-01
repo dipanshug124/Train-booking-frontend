@@ -36,7 +36,6 @@ function App() {
             value={requiredSeats}
             onChange={(e) => setRequiredSeats(e.target.value)}
           />
-          <input className="submit" type="submit" value="Submit" />
         </form>
       </div>
 
