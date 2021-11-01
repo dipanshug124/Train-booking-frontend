@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  /* width: 600px; */
+  margin: auto;
+}
+
+table.grid {
+  width: 24pc;
+}
+
+.available {
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+.btnmargin {
+  margin-top: 15px;
+}

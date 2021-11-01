@@ -1,0 +1,74 @@
+[
+  {
+    "_id": { "$oid": "617c1a66159dd376f5e65acf" },
+    "seatNo": "1",
+    "booked": true,
+    "createdAt": { "$date": { "$numberLong": "1635523174470" } },
+    "updatedAt": { "$date": { "$numberLong": "1635524461418" } },
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "617c1a77159dd376f5e65ad1" },
+    "seatNo": "2",
+    "booked": false,
+    "createdAt": { "$date": { "$numberLong": "1635523191738" } },
+    "updatedAt": { "$date": { "$numberLong": "1635523191738" } },
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "617c1a7a159dd376f5e65ad3" },
+    "seatNo": "3",
+    "booked": true,
+    "createdAt": { "$date": { "$numberLong": "1635523194952" } },
+    "updatedAt": { "$date": { "$numberLong": "1635524604374" } },
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "617c1a7c159dd376f5e65ad5" },
+    "seatNo": "4",
+    "booked": false,
+    "createdAt": { "$date": { "$numberLong": "1635523196896" } },
+    "updatedAt": { "$date": { "$numberLong": "1635523196896" } },
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "617c1a7e159dd376f5e65ad7" },
+    "seatNo": "5",
+    "booked": true,
+    "createdAt": { "$date": { "$numberLong": "1635523198358" } },
+    "updatedAt": { "$date": { "$numberLong": "1635524484330" } },
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "617c1a7f159dd376f5e65ad9" },
+    "seatNo": "6",
+    "booked": false,
+    "createdAt": { "$date": { "$numberLong": "1635523199809" } },
+    "updatedAt": { "$date": { "$numberLong": "1635523199809" } },
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "617c1a81159dd376f5e65adb" },
+    "seatNo": "7",
+    "booked": false,
+    "createdAt": { "$date": { "$numberLong": "1635523201343" } },
+    "updatedAt": { "$date": { "$numberLong": "1635523201343" } },
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "617c1a83159dd376f5e65add" },
+    "seatNo": "8",
+    "booked": false,
+    "createdAt": { "$date": { "$numberLong": "1635523203035" } },
+    "updatedAt": { "$date": { "$numberLong": "1635523203035" } },
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "617c1a85159dd376f5e65adf" },
+    "seatNo": "9",
+    "booked": false,
+    "createdAt": { "$date": { "$numberLong": "1635523205115" } },
+    "updatedAt": { "$date": { "$numberLong": "1635523205115" } },
+    "__v": { "$numberInt": "0" }
+  }
+]
